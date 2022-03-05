@@ -1,0 +1,10 @@
+body{background-color: rgb(161, 236, 236);font-family: Arial, sans-serif;}
+
+h1#principal{
+    text-align: center;
+    background-color: blue;
+    color: gold;
+} 
+.basico{color: brown;}
+.intermediario{color: crimson;}
+.avancado{color: coral;}

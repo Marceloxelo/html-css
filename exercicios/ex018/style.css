@@ -1,0 +1,9 @@
+@charset "UTF-8"
+    body { font-family: 'arial';
+        font-size: 17px;
+        color: black;}
+        h1{font-family: 'Redressed', cursive; }
+
+        h2 {font-family: 'Satisfy', cursive;
+    }
+        h2 pag2{color: blue;}

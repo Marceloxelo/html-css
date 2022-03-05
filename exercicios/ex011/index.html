@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #h11 {
+            color: rgb(199, 71, 71);
+
+        }
+
+        .paragrafo {
+            color: rgb(12, 4, 4);
+            border: solid;
+            transition:1s ;
+        }
+        .paragrafo:hover{
+            background-color: rgb(177, 177, 190);
+        }
+    </style>
+
+    <title>Midias em HTML5</title>
+</head>
+
+<body>
+    <!--ID CHAMASSE COM # {}.... CLASS CHAMASSE COM .{}-->
+    <h1 id="h11">Imagem dinâmica</h1>
+    <p class="paragrafo">tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o
+        tamanho do seu navegador.
+
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="Imagem Flexivel">
+
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p class="paragrafo">Vamos aprender a reproduzir audio em HTML5.</p>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae esse id quos amet reiciendis exercitationem illum quo, odio quas iure corporis consectetur voluptate nulla porro inventore dolores? Nihil, quam enim?</p>
+    <ul>
+
+       <p>
+            <audio controls src="midia/videoplayback.mp4" controls autoplay></audio>
+        </p>
+
+        <p>
+            <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius consequuntur enim ea maxime, architecto magnam
+            unde accusamus sunt delectus quas nostrum placeat, nemo nulla similique, explicabo reiciendis! Dolorem,
+            beatae nesciunt!</p>--> 
+    </ul>
+</body>
+
+</html>
